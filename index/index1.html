@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký tuyển sinh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- PHẦN NỀN XANH TRÊN CÙNG -->
+    <div class="cover-color">
+        <div class="cover-text">
+            <h1>TRƯỜNG THPT ABC</h1>
+            <p>Cổng thông tin đăng ký tuyển sinh</p>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h1>ĐĂNG KÝ TUYỂN SINH</h1>
+        <h3>Trường Cao Đẳng Điện Tử - Điện Lạnh Hà Nội</h3>
+
+        <form id="registerForm">
+            <label>Họ và tên</label>
+            <input type="text" required>
+
+            <label>Ngày sinh</label>
+            <input type="date" required>
+
+            <label>Giới tính</label>
+            <select required>
+                <option value="">-- Chọn --</option>
+                <option>Nam</option>
+                <option>Nữ</option>
+                <option>Khác</option>
+            </select>
+
+            <label>Số điện thoại</label>
+            <input type="tel" required>
+
+            <label>Email</label>
+            <input type="email">
+
+            <label>Nguyện vọng</label>
+            <select required>
+                <option value="">-- Chọn ngành --</option>
+                <option>Khoa học tự nhiên</option>
+                <option>Khoa học xã hội</option>
+                <option>Công nghệ thông tin</option>
+                <option>Kinh tế</option>
+            </select>
+
+            <button type="submit">Đăng ký</button>
+        </form>
+    </div>
+
+    <!-- THÔNG BÁO -->
+    <div id="message">✅ Đã gửi đăng ký thành công! Nhà trường sẽ liên hệ với bạn.</div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-box">
+            <h3>📞 THÔNG TIN LIÊN HỆ</h3>
+            <p><strong>Trường Cao Đẳng Điện Tử - Điện Lạnh Hà Nội</strong></p>
+            <p>📍 Địa chỉ: Số 10 đường Nguyễn Văn Huyên (hoặc ngõ 86, phố Chùa Hà), phường Dịch Vọng, quận Cầu Giấy, Hà Nội, Hanoi, Vietnam</p>
+            <p>☎ Điện thoại: 097 536 35 66</p>
+            <p>📧 Email: vanthu@dtdl.edu.vn</p>
+            <p>📧 Thông Tin Trường: dtdl.edu.vn</p>
+
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.890618318772!2d105.7973799!3d21.037062199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab388bddc6eb%3A0xbff060b49c0341b2!2sHanoi%20College%20Of%20Electronics%20%26%20Refrigeration!5e0!3m2!1sen!2s!4v1766588601744!5m2!1sen!2s"
+                width="100%" height="200"
+                style="border:0; border-radius:8px; margin-top:10px;"
+                loading="lazy">
+            </iframe>
+        </div>
+
+        <div class="copyright">
+            © 2025 Trường THPT ABC
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
